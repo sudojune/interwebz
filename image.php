@@ -1,5 +1,6 @@
 <?php
 $data = 'aXEyUDVqVmZtaDhFclJndzs=';
+
 $data = base64_decode($data);
 
 $im = imagecreatefromstring($data);
